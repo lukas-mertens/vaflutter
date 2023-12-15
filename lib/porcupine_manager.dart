@@ -27,8 +27,8 @@ class PorcupineManager {
   Porcupine? _porcupine;
 
   final WakeWordCallback _wakeWordCallback;
-  RemoveListener? _removeVoiceProcessorListener;
-  RemoveListener? _removeErrorListener;
+  VoidCallback? _removeVoiceProcessorListener;
+  VoidCallback? _removeErrorListener;
 
   /// Static creator for initializing PorcupineManager from a selection of built-in keywords
   ///
